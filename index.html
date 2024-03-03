@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+<link rel="stylesheet"  href="index.css" />
+</head>
+<body>
+    <!--
+        section 1
+        button:generate Number
+    -->
+    <div id="section1" class="container text-center mt-5">
+        <button class="btn btn-warning btn-lg" onclick="generate_number_btn_click()">Generate Number</button>
+    </div>
+    <!--section2
+        guess number
+        img
+        message
+        input field
+        check
+    -->
+    <div id="section2" class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <img src="https://media1.tenor.com/images/2af39b3684931b0750c00b61171ca867/tenor.gif?itemid=15766501" alt="" height="50%" width="50%" />
+                <p class="text-danger"> Guess The Number Between 1 to 20**    </p>
+                  <div class="form-group w-25 mx-auto">
+                    <input  id="field" type="text" placeholder="Enter Here" class="form-control"/>
+                  </div>
+                  <button class="btn btn-primary btn-sm mt-4" onclick="check_number()">
+                    check
+                  </button>
+        </div>
+        </div>
+    </div>
+    <div class="container text-center" id="section3">
+        <img
+        class="img-fluid"
+        style="width: 250px;" 
+        src="https://th.bing.com/th/id/R.57e5ae756cfac4c248564e2612d88ee2?rik=KTjzVpvA4l9cLg&riu=http%3a%2f%2fwww.curtalva.com%2fLongBall%2fimages%2fAnimatedDice1.gif&ehk=F7LaBRQ9ipUDq22gZX3PKnCGBfe%2b0yu9Ly5g98%2bRYdk%3d&risl=&pid=ImgRaw&r=0"
+  <br><h2 class="text-center" >Generating Number.....</h2>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
